@@ -89,7 +89,6 @@ const Icon = styled.a`
     border-radius: 5px;
     font-size: 0.6rem;
     white-space: nowrap;
-    animation: ${addSAnimation} 0.3s ease forwards;
   }
 
   @media (max-width: 768px) {
