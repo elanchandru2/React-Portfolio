@@ -351,7 +351,7 @@ const App = () => {
         </ContactButton>
         <IconContainer>
           <Icon
-            href="https://telegram.org"
+            href="http://t.me/Beekeeperchandru"
             target="_blank"
             rel="noopener noreferrer"
             title="Telegram"
@@ -367,7 +367,7 @@ const App = () => {
             <WhatsappIcon />
           </Icon>
           <Icon
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/chandru-e-113b8b2a2/"
             target="_blank"
             rel="noopener noreferrer"
             title="LinkedIn"
@@ -375,7 +375,7 @@ const App = () => {
             <LinkedinIcon />
           </Icon>
           <Icon
-            href="https://github.com"
+            href="https://github.com/elanchandru2"
             target="_blank"
             rel="noopener noreferrer"
             title="GitHub"

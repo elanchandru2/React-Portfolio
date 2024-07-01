@@ -77,16 +77,16 @@ const Footer = () => {
         Website made with <FaReact />
       </CenterSection>
       <IconContainer>
-        <Icon href="https://telegram.org" target="_blank" rel="noopener noreferrer">
+        <Icon href="http://t.me/Beekeeperchandru" target="_blank" rel="noopener noreferrer">
           <FaTelegramPlane />
         </Icon>
         <Icon href="https://wa.me/+918778622935" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp />
         </Icon>
-        <Icon href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <Icon href="https://www.linkedin.com/in/chandru-e-113b8b2a2/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </Icon>
-        <Icon href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <Icon href="https://github.com/elanchandru2" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </Icon>
       </IconContainer>
