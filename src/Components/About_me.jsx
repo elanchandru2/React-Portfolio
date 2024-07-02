@@ -114,12 +114,34 @@ const Image = styled.img`
   align-self: center;
   margin-top: 20px;
   box-shadow: inset 17px 17px 34px #1b7660, inset -17px -17px 34px #25a082;
+  position: relative;
+  overflow: hidden;
+  border: 10px solid transparent; /* Initial border width */
+  animation: ecoWave 5s infinite;
+  z-index: -1; /* Position behind other elements */
+
+  @keyframes ecoWave {
+    0% {
+      transform: scale(1);
+      border: 10px solid transparent;
+    }
+    50% {
+      transform: scale(1.1);
+      border: 20px solid transparent; /* Maximum border width */
+    }
+    100% {
+      transform: scale(1);
+      border: 10px solid transparent;
+    }
+  }
 
   @media (min-width: 768px) {
     align-self: flex-end;
     margin-top: 0;
   }
 `;
+
+
 
 const floatAnimation1 = keyframes`
   0% {
@@ -255,6 +277,7 @@ const AnimatedIcon = styled(animated.div)`
     animation: ${floatAnimation6} 3s ease-in-out infinite;
   }
 `;
+
 
 const AboutMe = () => {
   const [isVisible, setIsVisible] = useState(false);

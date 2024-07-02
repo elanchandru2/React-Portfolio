@@ -220,6 +220,7 @@ const Contact = () => {
           onChange={handleChange}
           required
         /> <br />
+           <div class="h-captcha" data-captcha="true" data-theme="dark" data-onload="myFunction"></div>
         <SubmitButton type="submit">Submit</SubmitButton>
       </ContactForm>
     </ContactSection>
