@@ -117,7 +117,7 @@ const Image = styled.img`
   position: relative;
   overflow: hidden;
   border: 10px solid transparent; /* Initial border width */
-  animation: ecoWave 5s infinite;
+  animation:  5s infinite;
   z-index: -1; /* Position behind other elements */
 
   @keyframes ecoWave {

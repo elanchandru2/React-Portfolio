@@ -213,6 +213,11 @@ const Contact = () => {
           onChange={handleChange}
           required
         /> 
+        <FormInput
+        type='hidden'
+        name='redirect'
+        value="https://react-portfolio-seven-virid.vercel.app/"
+        ></FormInput>
         <FormTextarea
           name="message"
           placeholder="Your Message"

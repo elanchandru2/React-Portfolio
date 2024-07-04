@@ -8,7 +8,7 @@ import {
   FaGithub,
   FaTelegram,
 } from "react-icons/fa";
-import heroImage from "../assets/hero.png"; // Assuming hero.png is in the same directory as this component
+import heroImage from "../assets/hero.svg"; // Assuming hero.png is in the same directory as this component
 
 const TEXTS = ["React ", "PHP ", "MySQL "];
 
